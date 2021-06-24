@@ -20,7 +20,7 @@ To restore the file, follow the following steps:</br>
 
 # How to Run
 
-**NOTE:** The project is based on Python 2.7.15 plateform running it on any other plateform might create some issues.</br>
+
 
 Step 1: Install Requirements</br>
 `pip install -r requirements.txt`</br>
