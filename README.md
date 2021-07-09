@@ -1,39 +1,22 @@
-# Secure-File-Storage-Using-Hybrid-Cryptography
+# Secure-file-storage-using-hybrid-cryptography
+Secure File Storage On Cloud Using Hybrid Cryptography
 
-## Objective: To Achieve a secure plateform for storing of files on Cloud using Hybrid Cryptography.</br>
+The proposed model is liable to meet the required security needs of data center of cloud. Blowfish used for the encryption of file slices takes minimum time and has maximum throughput for encryption and decryption from other symmetric algorithms. The idea of splitting and merging adds on to meet the principle of data security. The hybrid approach when deployed in cloud environment makes the remote server more secure and thus, helps the cloud providers to fetch more trust of their users. For data security and privacy protection issues, the fundamental challenge of separation of sensitive data and access control is fulfilled. Cryptography technique translates original data into unreadable form. Cryptography technique is divided into symmetric key cryptography and public key cryptography. This technique uses keys for translate data into unreadable form. So only authorized person can access data from cloud server. Cipher text data is visible for all people. 
 
-# Methodology
+Basic Requirement:
+##Python Interpreter
 
-To achieve the above goal, the following methodology needs to be followed:</br>
-1. Load the file on the server.</br>
-2. Dividing the uploaded file into N parts.</br>
-3. Encrypting all the parts of the file using any one of the selected algorithms (Algorithm is changed with every part in round robin fashion).</br>
-4. The keys for cryptography algorithms is then secured using a different algorithm and the key for this algorithm is provided to the user as public key.</br>
-
-After the above 4 steps you will have a N files which are in encrypted form which are stored on the server and a key which is downloaded as public key for decrypting the file and downloading it.</br>
-
-To restore the file, follow the following steps:</br>
-1. Load the key on the server.</br>
-2. Decrypt the keys of the algorithms.</br>
-3. Decrypt all the N parts of the file using the same algorithms which were used to encrypt them.</br>
-4. Combine all the N parts to form the original file and provide it to the user for downloading.</br>
-
-# How to Run
+	Advantages:
+•	The stored image file is completely secured, as the file is being encrypted not by just using one but three encryption algorithm which are AES, DES and RC6.
+•	The key is also safe as it embeds the key in image using LSB.
+•	The system is very secure and robust in nature.
+•	Data is kept secured on cloud server which avoids unauthorized access.
 
 
+	Disadvantages:
+•	Requires an active internet connection to connect with cloud server.
 
-Step 1: Install Requirements</br>
-`pip install -r requirements.txt`</br>
-
-Step 2: Run the application</br>
-`python app.py`</br>
-
-Step 3: Visit the localhost from your browser</br>
-
-Step 4: Enjoy :)
- 
-[//]: <> (*IF YOU ENCOUNTER ANY BUGS OR FOR ANY SUGGESTIONS REGARDING THE IMPROVEMENT OF THE PROJECT FEEL FREE TO CONTACT ME :**)
+	Application:
+Data security is a major priority. This system can be implemented into banking and corporate sectors to securely transfer confidential data.
 
 
-
-Shri Krishan	-	krishnamitws2000@gmail.com<br/>

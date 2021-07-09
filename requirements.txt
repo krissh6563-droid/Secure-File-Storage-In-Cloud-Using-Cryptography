@@ -1,3 +1,0 @@
-Flask==1.1.1
-werkzeug
-cryptography==2.9.2

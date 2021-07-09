@@ -1,6 +1,6 @@
 .vscode/
 .idea/
-project_env/
+env10/
 *.log
 *.pot
 *.pyc
