@@ -19,6 +19,21 @@ Basic Requirement:
 	Application:
 Data security is a major priority. This system can be implemented into banking and corporate sectors to securely transfer confidential data.
 
-Shri Krishan - krishnamitws2000@gmail.com
+##ScreenShot of the Project
+
+Home Page
+
+![Screenshot (260)](https://user-images.githubusercontent.com/56572543/125150910-d3b69380-e160-11eb-9d04-ef67ddbe2d69.png)
+
+Upload File
+
+![Screenshot (261)](https://user-images.githubusercontent.com/56572543/125150914-dc0ece80-e160-11eb-9765-0fa0f63e2971.png)
+
+Encrypt or Decrypt File
+
+![Screenshot (262)](https://user-images.githubusercontent.com/56572543/125150915-dfa25580-e160-11eb-8de0-88dd36e43faa.png)
+
+Shri Krishan - krishnamitws2000@gmail.com 
+
 
 
