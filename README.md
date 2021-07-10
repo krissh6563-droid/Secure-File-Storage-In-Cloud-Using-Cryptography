@@ -23,7 +23,7 @@ Data security is a major priority. This system can be implemented into banking a
 
 Home Page
 
-![Screenshot (260)](https://user-images.githubusercontent.com/56572543/125150910-d3b69380-e160-11eb-9d04-ef67ddbe2d69.png)
+![Screenshot (264)](https://user-images.githubusercontent.com/56572543/125151489-2ba2c980-e164-11eb-83c7-159ebe36fe39.png)
 
 Upload File
 
