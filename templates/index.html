@@ -1,19 +1,17 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Hybrid Cryptography</title>
-<style type="text/css">
-	body{
-		background-color: black;
-		color: white;
-	}
-</style>
-</head>
-<body> 
-<center> <h1> Hybrid Crypto!! </h1><br><br>
-<form action="/data/" method=post enctype=multipart/form-data>
-      		<center><input type=file name=file>    Only *.txt files allowed.</center>
-         	<br><input type=submit value="Upload & Process">
-</form></center>
-</body>
-</html>
+
+{% extends 'base.html' %}
+{% block title %}Hybrid Cryptography{% endblock %}
+
+{% block content %}
+
+<div id="promo">
+    <div class="jumbotron text-center">
+        <h1>Hybrid Crypto!!</h1>
+        <form action="/data/" method="post" enctype="multipart/form-data">
+			<center><input type=file name=file>    Only *.txt files allowed.</center>
+            <br><input type="submit" class="btn btn-primary" value="Upload & Process">
+        </form>
+    </div>
+</div>
+
+{% endblock %}
